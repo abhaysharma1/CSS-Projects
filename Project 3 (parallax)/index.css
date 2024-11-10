@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+.sec1 .div1,  .sec2 .div1-1, .sec3 .div1-1 {
+    background-color: rgb(78, 75, 75);
+    height: 8vh;
+    text-align: center;
+    width: 380px;
+    border-radius: 20px;
+
+    position: absolute;
+    inset: 0px;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+}
+
+.sec1 .div1 h1,  .sec2 .div1-1 h1, .sec3 .div1-1 h1{
+    padding: 8px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #e7e7e7;
+    font-size: 27px;
+    letter-spacing: 9px;
+    
+}
+
+
+.sec1 {
+    background-image: url(image1.jpg);
+}
+.sec2 { 
+    background-image: url(image2.jpg);   
+}
+.sec3 {
+    background-image: url(image3.jpg);
+}
+
+.sec1, .sec2 , .sec3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 0%;
+}
+
+.sec2 .div2, .sec3 .div3 {
+    background-color: rgb(78, 75, 75);
+    height: 250px;
+    width: 100%;
+    color: #ffffff;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.sec2 .div2 h1, .sec3 .div3 h1{
+    padding: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.sec2 .div2 h2, .sec3 .div3 h2{
+    padding: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
